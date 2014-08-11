@@ -1,0 +1,102 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="24" />
+      <Item value="DateTime`0" priority="14" />
+      <Item value="string" priority="0" />
+      <Item value="double" priority="37" />
+      <Item value="int" priority="13" />
+      <Item value="InterestRateCalculator`0" priority="2" />
+      <Item value="this" priority="5" />
+      <Item value="interest" priority="2" />
+      <Item value="numberPeriods" priority="1" />
+      <Item value="return" priority="7" />
+      <Item value="principal" priority="1" />
+      <Item value="Math`0" priority="4" />
+      <Item value="factor" priority="4" />
+      <Item value="NumberOfPeriods" priority="6" />
+      <Item value="Rate" priority="10" />
+      <Item value="m" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="InterestRateCalculator" priority="1" />
+      <Item value="newPeriods" priority="0" />
+      <Item value="R" priority="0" />
+      <Item value="myBond" priority="0" />
+      <Item value="rta" priority="2" />
+      <Item value="A" priority="0" />
+      <Item value="futureValue" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="t" priority="2" />
+      <Item value="PresentValue`0" priority="0" />
+      <Item value="presentValue" priority="1" />
+      <Item value="coupon" priority="5" />
+      <Item value="a" priority="0" />
+      <Item value="numerator" priority="0" />
+      <Item value="Bond`0" priority="1" />
+      <Item value="paymentPerYear" priority="2" />
+      <Item value="Coupon" priority="1" />
+      <Item value="eng" priority="4" />
+      <Item value="calculator" priority="2" />
+      <Item value="redemptionValue" priority="1" />
+      <Item value="char" priority="0" />
+      <Item value="pvCoupon" priority="0" />
+      <Item value="pvPar" priority="0" />
+      <Item value="Schedule`0" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="protected" priority="15" />
+      <Item value="DayCount`0" priority="0" />
+      <Item value="Double`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Calculator.InterestRateCalculator">
+      <Item value="Rate" priority="2" />
+      <Item value="NumberOfPeriods" priority="2" />
+      <Item value="FutureValue`0" priority="0" />
+      <Item value="PresentValueConstant`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Pow`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Instrument.Bond">
+      <Item value="NumberOfPeriods" priority="0" />
+      <Item value="Coupon" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Calculator/f:InterestRateCalculator.cs" caret="1908" fromTop="29" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Instrument/f:Bond.cs" caret="1329" fromTop="44" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:Schedule.cs" caret="115" fromTop="6" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:FloatingSchedule.cs" caret="364" fromTop="15" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:DayCount.cs" caret="217" fromTop="12" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Instrument/f:BaseBond.cs" caret="1096" fromTop="28" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Calculator/f:InterestRateCalculator.cs" caret="340" fromTop="12" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Calculator/f:InterestRateCalculator.cs" caret="1112" fromTop="22" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Calculator/f:InterestRateCalculator.cs" caret="1917" fromTop="29" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Instrument/f:Bond.cs" caret="1329" fromTop="44" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:Schedule.cs" caret="460" fromTop="9" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:Schedule.cs" caret="115" fromTop="6" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:FloatingSchedule.cs" caret="373" fromTop="15" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Common/f:DayCount.cs" caret="217" fromTop="12" />
+      <File id="B59EAA21-D1F5-4A20-8ED5-09539DB9DF93/d:Instrument/f:BaseBond.cs" caret="1096" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
