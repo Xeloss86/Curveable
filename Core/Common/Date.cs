@@ -7,7 +7,7 @@ namespace Core.Common
 {
     public class Date
     {
-        #region: Constructors
+        #region Constructors
 
         public DateTime DateValue{get;set;}
         
@@ -49,7 +49,6 @@ namespace Core.Common
                 DateValue = starting.AddDays(value);
             }
         }
-
 
         public Date AddBusDays(int days)
         {
@@ -116,6 +115,7 @@ namespace Core.Common
 
 
         #region Operators
+
         public static Date operator +(Date date, int nDays)
         {
             DateTime outDate = new DateTime();
