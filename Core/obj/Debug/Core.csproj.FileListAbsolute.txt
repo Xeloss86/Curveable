@@ -6,3 +6,7 @@ F:\DEV\DOT_NET\Curveable\Core\bin\Debug\Core.dll
 F:\DEV\DOT_NET\Curveable\Core\bin\Debug\Core.pdb
 F:\DEV\DOT_NET\Curveable\Core\obj\Debug\Core.dll
 F:\DEV\DOT_NET\Curveable\Core\obj\Debug\Core.pdb
+F:\DEV\Github\Curveable\Core\bin\Debug\Core.dll
+F:\DEV\Github\Curveable\Core\bin\Debug\Core.pdb
+F:\DEV\Github\Curveable\Core\obj\Debug\Core.dll
+F:\DEV\Github\Curveable\Core\obj\Debug\Core.pdb

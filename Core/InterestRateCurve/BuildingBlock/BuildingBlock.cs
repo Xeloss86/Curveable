@@ -6,36 +6,27 @@ using Core.Common;
 
 namespace Core.InterestRateCurve.BuildingBlock
 {
-    public class BuildingBlock: IBuildingBlockFactory
+    public abstract class BuildingBlock
     {
-        public DateTime RefDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public Date RefDate { get; set; }
+        public Date EndDate { get; set; }
         public Period Tenor { get; set; }
         public double RateValue { get; set; }
         public BuildingBlockType BuildingBlockType { get; set; }
         public Dc DayCount { get; set; }
 
-
         protected BuildingBlock() { }
 
-        public BuildingBlock(DateTime refDate, double rateValue, string tenor)
+        public BuildingBlock(Date refDate, double rateValue, string tenor)
         {
             this.RefDate = RefDate;
-            
+            this.RateValue = rateValue;
+            this.Tenor = new Period(tenor);
+            LoadSpecifications();
         }
 
-        //According to BuildingBlockType will create the right BuildingBlock
-        public BuildingBlock CreateBuildingBlock(DateTime refDate, double rateValue, string tenor, BuildingBlockType blockType)
-        {
-            //switch (blockType)
-            //{ 
-            //    case BuildingBlockType.EURZERORATE:
-            //        return new EurZeroRate(refDate, refValue, tenor);
-            //        break;
+        // Derived class should implement it
+        abstract public void LoadSpecifications();
 
-                
-            //}
-            return null;
-        }
     }
 }

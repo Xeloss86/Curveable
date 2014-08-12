@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Core</RootNamespace>
     <AssemblyName>Core</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,13 +48,20 @@
     <Compile Include="Common\Date.cs" />
     <Compile Include="Common\DayCount.cs" />
     <Compile Include="Common\Dc.cs" />
+    <Compile Include="Common\FixOrFloat.cs" />
     <Compile Include="Common\FloatingSchedule.cs" />
     <Compile Include="Common\Period.cs" />
+    <Compile Include="Common\Rule.cs" />
     <Compile Include="Common\TenorType.cs" />
     <Compile Include="Instrument\BaseBond.cs" />
     <Compile Include="Instrument\Bond.cs" />
+    <Compile Include="Instrument\SwapLeg.cs" />
     <Compile Include="InterestRateCurve\BuildingBlock\BuildingBlock.cs" />
+    <Compile Include="InterestRateCurve\BuildingBlock\BuildingBlockFactory.cs" />
     <Compile Include="InterestRateCurve\BuildingBlock\BuildingBlockType.cs" />
+    <Compile Include="InterestRateCurve\BuildingBlock\EurDepo.cs" />
+    <Compile Include="InterestRateCurve\BuildingBlock\EurSwapVs6m.cs" />
+    <Compile Include="InterestRateCurve\BuildingBlock\EurZeroRate.cs" />
     <Compile Include="InterestRateCurve\BuildingBlock\IBuildingBlockFactory.cs" />
     <Compile Include="InterestRateCurve\BuildingBlock\OnePaymentStyle.cs" />
     <Compile Include="InterestRateCurve\BuildingBlock\SwapStyle.cs" />

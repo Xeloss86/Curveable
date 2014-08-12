@@ -13,9 +13,11 @@ namespace Core.InterestRateCurve.BuildingBlock
         protected OnePaymentStyle() : base() { }
 
         //Constructor
-        public OnePaymentStyle(DateTime refDate, double rateValue, string tenor):base(refDate, rateValue, tenor)
-        { 
-        
+        public OnePaymentStyle(Date refDate, double rateValue, string tenor): 
+            base(refDate, rateValue, tenor)
+        {
+            //Getting the last date
+            this.EndDate = this.RefDate.AddPeriod(tenor, false).GetBusinessDayAdjustment(BusDayAdjPay);
         }
 
     }
